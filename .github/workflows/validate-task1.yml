@@ -16,6 +16,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Require Task 1 issue reference
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          TASK1_ISSUE: "1"
+        run: |
+          if ! echo "$PR_BODY" | grep -Eiq \
+            "(closes|closed|close|fixes|fixed|fix|resolves|resolved|resolve) #${TASK1_ISSUE}([^0-9]|$)"; then
+            echo "::error::Your PR must reference Task 1 using Closes #${TASK1_ISSUE}."
+            exit 1
+          fi
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
