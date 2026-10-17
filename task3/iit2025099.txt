@@ -1,4 +1,0 @@
-# Task 3 - Workshop bot
-Roll number: iit2025099
-Workshop decision: REBASE
-Explain how this change should be integrated.
