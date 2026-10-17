@@ -53,7 +53,7 @@ jobs:
           file="${files[0]}"
           filename="${file##*/}"
 
-          if [[ ! "$filename" =~ ^[A-Za-z]{3}2026[0-9]{3}\.c$ ]]; then
+          if [[ ! "$filename" =~ ^[A-Za-z]{3}[0-9]{7}\.c$ ]]; then
             echo "::error::Invalid filename '$filename'. Expected XXX2026YYY.c, with letters case-insensitive."
             exit 1
           fi

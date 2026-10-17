@@ -54,7 +54,7 @@ jobs:
 
             const submissions = files.filter(file =>
               file.status === "added" &&
-              /^task3\/[A-Za-z]{3}2026[0-9]{3}\.txt$/.test(file.filename)
+              /^task3\/[A-Za-z]{3}[0-9]{7}\.txt$/.test(file.filename)
             );
 
             if (submissions.length !== 1) {
