@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: read
+  pull-requests: write
   issues: write
 
 jobs:
@@ -91,8 +91,8 @@ jobs:
             const botContent = [
               "# Task 3 - Workshop bot",
               `Roll number: ${rollNumber}`,
-              "Workshop decision: REBASE",
               "Explain how this change should be integrated.",
+              "The final pr should have both commits.",
               ""
             ].join("\n");
 
