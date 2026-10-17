@@ -15,3 +15,5 @@ When you've found both halves, you'll need a good **chef**. Arjun always said, "
 Find Arjun's treasure. Bring the flag to a mentor to claim your prize. It looks like `flag{...}`.
 
 **Rules:** Work from the terminal. Don't edit, delete, or push anything.
+
+**Hints:** Arjun want to **_cleanup_** his work and hide treasure from normal people
