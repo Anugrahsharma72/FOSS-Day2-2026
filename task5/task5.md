@@ -1,25 +1,17 @@
 # Task 5: The Vanishing Flag
 
-## The Plot
+## The Story
 
-It was 11:47 PM, the night before the workshop. The lab was empty except for Arjun, the repo's maintainer.
+Arjun, the maintainer of this repo, had found something valuable: a treasure he wanted only the sharpest minds at the workshop to claim.
 
-He had just committed something he was never supposed to: a secret flag. Not in plain text, of course. Arjun wasn't careless. He had scrambled it using the most common trick in the book, an alphabet of exactly **sixty-four** characters, the kind of encoding you see everywhere on the internet without noticing.
+But he knew a treasure left in one place doesn't stay a secret for long. So he split it in two and hid each half in a different spot, written in a scrambled script that looks like gibberish to anyone who doesn't know the trick. Then he tidied up after himself, left a single word as a signature, and walked away whistling.
 
-Then he heard it. Footsteps in the corridor, slow and getting closer.
+The repo looks spotless now. But this lab keeps a record of everything that ever happened in it, and a treasure hunter who knows where to look can follow Arjun's footsteps from the very beginning.
 
-His hands shook as he deleted the file ,push it to the repo and slipped out the back door. On his way out, he scribbled a note on the whiteboard and wiped half of it away. All that remained was:
-
-> _"... git never forgets.When you find the text ,take it to the Cyber Chef. He knows every thing."_
-
-By morning, the repo looked spotless. Nobody suspected a thing.
-
-But the whiteboard was still there.
+When you've found both halves, you'll need a good **chef**. Arjun always said, "Any scramble can be un-scrambled, if you have the **cyber** tools."
 
 ## Your Mission
 
-Find what Arjun tried to bury.
+Find Arjun's treasure. Bring the flag to a mentor to claim your prize. It looks like `flag{...}`.
 
-## Task
-
-Make a file name secret.txt in task5 folder (like task5/secret.txt) and write Arjun secret and then pull request.
+**Rules:** Work from the terminal. Don't edit, delete, or push anything.
