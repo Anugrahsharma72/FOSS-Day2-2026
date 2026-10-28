@@ -3,5 +3,9 @@
 int main(){
 int n,m;
 scanf("%d %d",&n,&m);
+int k = n+m;
+printf("%d",k);
+
+
 }
 
